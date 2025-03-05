@@ -28,9 +28,14 @@ If you're tired of just using `sklearn`, this is your chance to dive deep and **
 
 ---
 
+## 📢 Let's Connect!
+Got any ideas, improvements, or just want to chat about ML? Drop me a message! 📬
+Happy coding and keep exploring! 🚀🎯
+
+---
+
 ## 🚀 How to Use?  
 Clone the repo and start exploring:  
 ```bash
 git clone https://github.com/yourusername/NUS-SPH6004.git
 cd NUS-SPH6004
-
