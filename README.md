@@ -20,6 +20,37 @@ If you have any thoughts or suggestions, feel free to reach out! Happy coding! �
 🔹 **`baseline/`** — This contains the **step-by-step implementation** along with some **extra experiments**.  
 For quick debugging, I used a **small-scale dataset**, but feel free to test on full data! 🚀  
 
+### 📝 Assignment 2: Image Embedding Modeling (1376-dimensional CXR Tabular Vectors)
+
+Developed a structure-aware multi-label classification model based on 1376-dimensional image embeddings derived from chest X-rays.
+
+#### 🔹 Baseline Models
+Implemented and tuned several strong baselines for tabular deep learning:
+
+- MLP
+- ResMLP
+- SwinMLP
+- TransformerMLP
+- FTTransformer
+- SAINT
+- ViTLike
+- Vanilla Transformer
+
+#### 🔹 Advanced Model: ZLXC (Zoomable Label-guided eXpert Classifier)
+A modular architecture designed for high-dimensional dense feature modeling.
+
+- **FeatureReformer**: Gated projection and patchify for structural compression  
+- **MlTrBlock1D**: Local window attention + cross-window global attention  
+- **LabelGCN**: Label co-occurrence graph for semantic propagation  
+- **Query2LabelDecoder**: Transformer decoder for label-aware attention  
+- **Masked BCE Loss**: Skips missing labels during training for robust learning
+
+#### 📊 Evaluation Metrics
+- AUC (per-class & macro)
+- F1 Score (micro & macro)
+- mAP (mean average precision)
+- Accuracy
+
 ---
 
 ## 💡 Why This Repo?  
